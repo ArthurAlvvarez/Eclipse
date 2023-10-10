@@ -6,9 +6,9 @@ public class Ejercicio1 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Dime tu calificación de 0 a 100: ");
-		int calificacion= sc.nextInt();
+		int nota= sc.nextInt();
 		
-		if(calificacion<60){
+		if(nota<60){
 			System.out.println("Has supendido");
 			
 		}
