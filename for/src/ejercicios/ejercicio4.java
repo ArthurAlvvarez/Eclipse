@@ -10,17 +10,17 @@ public class ejercicio4 {
 	  System.out.println("Dime un número entero positivo: ");
 	  
 	  int numero = sc.nextInt();
-	  int factorial = 0;
+	  int factorial = 1;
 	  
 	  
-	  for(int i = 0; i <= numero; i++){
+	  for(int i = numero; i > 0; i--){
 		  
 		  factorial = i* factorial;
 		  
-		  
 		  System.out.println(factorial);
+		  
 	  }
-
+	  System.out.println("El factorial de "+ numero + " es "+ factorial);
 	}
 
 }

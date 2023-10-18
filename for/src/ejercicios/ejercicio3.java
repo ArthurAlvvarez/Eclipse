@@ -17,7 +17,7 @@ public class ejercicio3 {
 			//System.out.println(multiplicacion);
 			System.out.println(numero+ " x "+i+"= "+ multiplicacion);
 		}
-		
+	
 
 	}
 
