@@ -19,6 +19,7 @@ public class Ejercicio2 {
 	else {
 		System.out.println("Tu número es positivo");
 	}
+	
 			
 
 }
