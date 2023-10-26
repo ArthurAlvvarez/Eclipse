@@ -60,7 +60,7 @@ public class ejercicio1 {
 			
 			System.out.println("El número introducido está fuera del rango");
 			
-			break;	
+		
 		}
 
 	}

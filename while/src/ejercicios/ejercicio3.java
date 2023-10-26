@@ -15,7 +15,7 @@ public class ejercicio3 {
 		
 		while(numero > 0) {
 			
-			numero= numero/10;
+			numero = numero/10;
 			
 		contador++;	
 		

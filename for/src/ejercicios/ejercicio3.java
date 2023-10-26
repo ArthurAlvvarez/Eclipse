@@ -8,12 +8,12 @@ public class ejercicio3 {
 		Scanner sc=new Scanner(System.in);
 		
 		System.out.print("Dime un número: ");
-		int numero=sc.nextInt();
-		int multiplicacion=0;
+		int numero = sc.nextInt();
+		int multiplicacion = 0;
 		
-		for(int i=1;i<=10;i++) {
+		for(int i = 1; i <= 10; i++) {
 			
-			multiplicacion= i*numero;
+			multiplicacion= i * numero;
 			//System.out.println(multiplicacion);
 			System.out.println(numero+ " x "+i+" = "+ multiplicacion);
 		}

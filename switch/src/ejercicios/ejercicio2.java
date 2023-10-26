@@ -49,7 +49,6 @@ public class ejercicio2 {
 				
 				System.out.println("Solo pon lo que te pido");
 				
-				break;
 		
 		
 		}

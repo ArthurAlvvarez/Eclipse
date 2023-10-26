@@ -4,10 +4,10 @@ public class ejercicio2 {
 
 	public static void main(String[] args) {
 		
-		int numero= 1;
+		
 		int i = 10;
 		
-		while(i >=numero) {
+		while(i > 0) {
 			
 			System.out.println(i);
 			
