@@ -14,7 +14,7 @@ public class ejercicio3 {
 		
 		System.out.println("");
 		
-		for(int b = 1; b <= 10; b++) {
+		for(int c = 1; c <= 10; c++) {
 			
 			System.out.print("--------");
 			
