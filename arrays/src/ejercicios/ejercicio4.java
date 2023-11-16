@@ -17,7 +17,7 @@ public class ejercicio4 {
 		for (int i = 0; i < array.length; i++) {
 			
 			if (numero == array[i]) {
-				System.out.println(numero+" está en la posicion "+i);
+				System.out.println(numero+" está en la posicion "+(i+1));
 				encontrado = true;
 			}
 			
