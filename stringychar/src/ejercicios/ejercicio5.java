@@ -10,18 +10,17 @@ public class ejercicio5 {
 		System.out.println("Inserta una palabra o una frase: ");
 		String texto = sc.nextLine();
 		
-		String texto2 = texto.toLowerCase();
-		char letras = ' ';
-		String texto3 = "";
+		texto = texto.toLowerCase();
+		String letras = "";
 	
-		for (int i = texto2.length()-1; i >= 0 ; i--) {
+		for (int i = texto.length()-1; i >= 0 ; i--) {
 			
-			letras = texto2.charAt(i);
-			texto3 += letras;
+			letras += texto.charAt(i);
+			//texto3 += letras;
 						
 			}
 		
-		if (texto2.equals(texto3)== true) {
+		if (texto.equals(letras)== true) {
 			System.out.println("Es palíndromo");
 			
 			

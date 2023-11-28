@@ -10,47 +10,32 @@ public class Persona {
 	private int telefono;
 	private int edad;
 
-	
-
-	public Persona (String _nombre, String _apellido) {
+	public void nombre_apellidos  (String _nombre, String _apellido) {
 		this.nombre = _nombre;
 		this.apellido = _apellido;
-		
 	}
 
-	public Persona (int _DNI, int _edad, int _telefono) {
+	public void dni_edad_telefono (int _DNI, int _edad, int _telefono) {
 
-		this.DNI = DNI;
+		this.DNI = _DNI;
 
-		this.edad = edad;
+		this.edad = _edad;
 
-		this.telefono = telefono;
+		this.telefono = _telefono;
 
 		
 
 	}
-
-		
 
 	public String getNombre() {
 
-		
-
 		return this.nombre;
-
-		
 
 	}
 
-	
-
 	public String getApellido() {
 
-		
-
 		return this.apellido;
-
-		
 
 	}
 
@@ -58,14 +43,18 @@ public class Persona {
 
 	public int getEdad() {
 
-		
-
 		return this.edad;
 
+	}
+	
+	public int getDni() {
 		
-
+		return this.DNI;
+	}
+	
+public int getTelefono() {
 		
-
+		return this.telefono;
 	}
 
 		

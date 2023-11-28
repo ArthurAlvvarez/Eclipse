@@ -10,13 +10,12 @@ public class ejercicio4 {
 		System.out.println("Ingresa una palabra: ");
 		String palabra = sc.nextLine();
 		
-		char letra = ' ';
+		palabra = palabra.replace(" ", "").toLowerCase();
 		String reves = "";
 		
 		for (int i = palabra.length()-1; i >= 0; i--) {
 			
-			letra = palabra.charAt(i);
-			reves += letra;
+			reves += palabra.charAt(i);
 		}
 		System.out.println(reves);
 	}

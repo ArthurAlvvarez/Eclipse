@@ -18,7 +18,6 @@ public class Circulo {
 	 * constructora
 	 * @param radio
 	 */
-	
 	public Circulo (double _radio) {
 		
 		this.area = 0;
@@ -33,11 +32,11 @@ public class Circulo {
 	public double getArea() {
 		return this.area;
 	}
+	
 	/**
 	 * este metodo retorna perimetro
 	 * @return
-	 */
-	
+	 */	
     public double getPerimetro() {
 		return this.perimetro;
 	}
@@ -49,6 +48,7 @@ public class Circulo {
     public double getAreaResultado() {
 	    return this.area = this.pi * (this.radio * this.radio);
 }
+    
 /**
  * Este metodo retorna el resultado de perimetro
  * @return
